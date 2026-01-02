@@ -1,24 +1,46 @@
 # Glue Factory Radio - Splash Page
 
-Simple splash page for gluefactoryradio.com
+Simple splash page for `gluefactoryradio.com`
 
-## Deployment
+## Quick Deploy to Vercel
 
-This is a standalone static site that should be deployed as a separate Vercel project.
+### Option 1: Deploy from GitHub
+1. Create a new GitHub repository
+2. Push this code to the repository
+3. In Vercel dashboard, click "Add New Project"
+4. Import the GitHub repository
+5. Vercel will auto-detect the settings
+6. Add domain `gluefactoryradio.com` in project settings → Domains
+7. Deploy!
 
-1. Create a new Vercel project from this directory
-2. Connect the domain `gluefactoryradio.com` to this project
-3. Deploy
+### Option 2: Deploy from CLI
+```bash
+npm i -g vercel
+cd glue-factory-radio-splash
+vercel
+# Follow the prompts
+# Add domain: vercel domains add gluefactoryradio.com
+```
 
 ## Files
 
-- `index.html` - The splash page
+- `index.html` - The splash page with MailChimp email signup
 - `logo.png` - Glue Factory Radio logo
 - `vercel.json` - Vercel configuration for static hosting
 
+## Features
+
+- Red background (#ff0000)
+- Glue Factory Radio logo
+- Email signup form (MailChimp integration)
+- Arrow submit button
+- Fully responsive
+
 ## When Ready to Launch
 
-When you're ready to launch the full site:
-1. Point `gluefactoryradio.com` to the main radio app project
-2. This splash page project can be archived or deleted
+When you're ready to launch the full radio app:
+1. In Vercel, go to your main radio app project
+2. Add domain `gluefactoryradio.com` to that project
+3. Remove `gluefactoryradio.com` from this splash page project
+4. This splash page project can be archived or deleted
 
