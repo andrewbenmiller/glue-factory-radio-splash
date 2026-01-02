@@ -1,0 +1,9 @@
+{
+  "name": "glue-factory-radio-splash",
+  "version": "1.0.0",
+  "description": "Splash page for gluefactoryradio.com",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  }
+}
+
